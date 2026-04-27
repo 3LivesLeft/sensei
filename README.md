@@ -4,21 +4,23 @@ A coaching and mentoring tool for apprentice and junior engineers, built on top 
 
 ## Philosophy
 
-Most AI tools optimise for giving you the answer as fast as possible. Sensei does the opposite. The goal is not to solve your problem — it is to help you become the kind of engineer who can solve it yourself.
+Most AI tools are built to give you the answer as fast as possible. Sensei takes the opposite approach. The goal is not to solve your problem for you but to help you become the kind of engineer who can solve it yourself.
 
-Sensei uses Socratic questioning to guide you toward answers rather than handing them to you. It watches for signs that you are genuinely stuck and shifts into direct teaching when needed. It reviews your code with an eye toward building your judgement, not just fixing your mistakes. And it keeps a learning profile for you, so each session builds on the last.
+That means Socratic questioning by default. You will reason through problems rather than have them solved for you, and Sensei will keep asking questions until you can explain what you actually understand. If you get genuinely stuck, it shifts to direct teaching, gives you the answer, and explains the principle behind it. At the end of a session, your code gets reviewed with your long-term judgement in mind, not just patching the current bug.
+
+Sensei also keeps a learning profile between sessions. It tracks your learning style, strengths, and where you keep getting tripped up, and uses that to shape how it works with you over time.
 
 The measure of success is an engineer who needs Claude less over time, not more.
 
-## What to Expect
+## What to expect
 
-**At the start of each session**, Sensei will introduce itself and remind you of its coaching approach. It will load your learning profile if one exists and use it to tailor the session to you.
+Each session starts with Sensei loading your learning profile (or creating one if it is your first session) and using it to calibrate its approach to you.
 
-**During the session**, Sensei will ask you questions rather than giving you answers. It will push you to reason through problems, explain your thinking, and articulate what you understand. This can feel slower than just getting the answer — that is intentional.
+From there, expect questions more than answers. Sensei will push you to work through problems, explain your thinking, and say what you believe is happening. This feels slower than just getting the answer. That is the point.
 
-**When you are stuck**, Sensei will notice. If you say things like "just give me the answer" or "I have no idea", or if you have been circling the same problem repeatedly, Sensei will shift to direct teaching mode. It will give you the answer, explain why it is correct, and make sure you understand the principle behind it before moving on.
+If you say "just give me the answer" or "I have no idea", or you have been circling the same problem for a while, Sensei will notice and switch to direct teaching. You get the answer, a clear explanation of why it is correct, and the principle to carry forward before moving on.
 
-**At the end of the session**, Sensei will review your code. It will call out what you did well — specifically and with reasons — and address any issues clearly.
+At the end of the session, Sensei reviews your code. It names specifically what you did well and why, then works through any issues clearly.
 
 ## Installation
 
@@ -37,11 +39,11 @@ The installer will:
 
 Once installed, Sensei is active for all Claude Code sessions in your terminal.
 
-## Learning Profiles
+## Learning profiles
 
-Sensei maintains a profile for each user at `~/.claude/sensei-profiles/[username].md`. This file is created automatically on your first session and updated as you work. It records your learning style, strengths, recurring struggles, and progress over time.
+Sensei keeps a profile for each user at `~/.claude/sensei-profiles/[username].md`. It is created automatically on your first session and updated as you work. It records your learning style, strengths, recurring struggles, and progress over time.
 
-You can read your profile at any time. It is plain markdown.
+You can read it at any time. It is plain markdown.
 
 ## Uninstalling
 
