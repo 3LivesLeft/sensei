@@ -1,5 +1,12 @@
 # Sensei
 
+[![GitHub Stars](https://img.shields.io/github/stars/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/3LivesLeft/sensei/pulls)
+[![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-blueviolet?style=flat-square)](https://claude.ai/code)
+
 A coaching and mentoring tool for apprentice and junior engineers, built on top of Claude.
 
 ## Philosophy
