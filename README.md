@@ -31,11 +31,19 @@ At the end of the session, Sensei reviews your code. It names specifically what 
 
 ## Installation
 
-Clone or download this repository, then run:
+Clone or download this repository, then follow the instructions for your platform.
+
+### macOS / Linux
 
 ```bash
 chmod +x install.sh
 ./install.sh
+```
+
+### Windows
+
+```powershell
+powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
 The installer will:
