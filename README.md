@@ -1,5 +1,9 @@
 # Sensei
 
+<p align="center">
+  <img src="assets/sensei-logo.png" alt="Sensei logo" width="200" />
+</p>
+
 [![GitHub Stars](https://img.shields.io/github/stars/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/3LivesLeft/sensei?style=flat-square)](https://github.com/3LivesLeft/sensei/issues)
