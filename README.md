@@ -22,6 +22,13 @@ If you say "just give me the answer" or "I have no idea", or you have been circl
 
 At the end of the session, Sensei reviews your code. It names specifically what you did well and why, then works through any issues clearly.
 
+## Prerequisites
+
+- A Claude subscription that includes access to Claude Code (Pro, Team, or Enterprise)
+- Claude Code installed and authenticated on your machine
+
+If you do not have access to Claude Code, visit [claude.ai](https://claude.ai) to check subscription options.
+
 ## Installation
 
 Clone or download this repository, then run:
